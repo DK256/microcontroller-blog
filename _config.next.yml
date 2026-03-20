@@ -1,0 +1,168 @@
+# ===============================================================
+# NexT主题配置覆盖文件 (_config.next.yml)
+# Docs: https://theme-next.js.org/docs/getting-started/
+# ===============================================================
+
+# --- 主题方案 ---
+# Muse | Mist | Pisces | Gemini
+scheme: Gemini
+
+# --- 菜单配置 ---
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  about: /about/ || fa fa-user
+
+# --- 侧边栏 ---
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+
+# --- 头像 ---
+avatar:
+  url: /images/avatar.png
+  rounded: true
+  rotated: false
+
+# --- 社交链接 ---
+social:
+  GitHub: https://github.com/iotarray || fab fa-github
+  # Twitter: https://twitter.com/yourname || fab fa-twitter
+  # E-Mail: mailto:yourname@example.com || fa fa-envelope
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+# --- 社交分享 ---
+share:
+  enable: false
+
+# --- 代码高亮 ---
+codeblock:
+  theme:
+    light: default
+    dark: stackoverflow-dark
+  copy_button:
+    enable: true
+    show_result: true
+    style: flat
+
+# --- 返回顶部 ---
+back_to_top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# --- 阅读进度条 ---
+reading_progress:
+  enable: true
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+# --- 书签 ---
+bookmark:
+  enable: false
+  color: "#222"
+  save: auto
+
+# --- GitHub Banner ---
+github_banner:
+  enable: true
+  permalink: https://github.com/iotarray/microcontroller-blog
+  title: Follow us on GitHub
+
+# --- 字体 ---
+font:
+  enable: true
+  host: https://fonts.googleapis.com
+  global:
+    external: true
+    family: Lato
+    size: 1
+  title:
+    external: true
+    family: Lato
+    size: 1.5
+  code:
+    external: true
+    family: consolas
+
+# --- 页脚 ---
+footer:
+  since: 2026
+  icon:
+    name: fa fa-microchip
+    animated: false
+    color: "#808080"
+  copyright: IoTArray
+  powered: false
+
+# --- SEO 设置 ---
+seo: true
+index_with_subtitle: true
+
+# --- 本地搜索 ---
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# --- RSS ---
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: fa fa-rss
+  rss: /atom.xml
+
+# --- 数学公式 ---
+math:
+  every_page: false
+  mathjax:
+    enable: false
+  katex:
+    enable: false
+
+# --- Mermaid 图表 ---
+mermaid:
+  enable: true
+  theme:
+    light: default
+    dark: dark
+
+# --- 评论系统 (可后续启用) ---
+comments:
+  active: false
+
+# --- 统计 ---
+# leancloud_visitors:
+#   enable: false
+busuanzi_count:
+  enable: false
+
+# --- CDN ---
+vendors:
+  internal_js: true
+
+# --- 自定义 logo ---
+custom_logo:
+  enabled: false
+  image:
+
+# --- 页面动画 ---
+use_motion: true
