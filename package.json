@@ -1,0 +1,1 @@
+{\n  "name": "microcontroller-blog",\n  "version": "0.0.1",\n  "description": "A Hexo blog for microcontroller topics",\n  "main": "index.js",\n  "scripts": {\n    "start": "hexo server",\n    "build": "hexo generate",\n    "deploy": "hexo deploy"\n  },\n  "dependencies": {\n    "hexo": "^5.0.0"\n  }\n}
